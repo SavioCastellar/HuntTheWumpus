@@ -37,6 +37,8 @@ RoboDog image ^.^
 ```requirements.txt```<br />
 The version for all used packages can be seen here.
 ## Output
+Setting up the environment:
+
 ``` Ruby
     # RoboDog at position 0
     park.add_thing(dog, 0)
@@ -50,8 +52,19 @@ The version for all used packages can be seen here.
     # Number of steps
     park.run(10)
 ```
-<br>
+
 For the environment above, that's the output we get:
-<a>
-  <img src="https://user-images.githubusercontent.com/78110795/179368899-bee8cdec-037f-4c41-8abc-29f9532995b4.PNG">
-</a>
+
+``` Ruby
+    [<RoboDog>]
+    [<RoboDog>]
+    [<RoboDog>]
+    [<RoboDog>]
+    [<RoboDog>]
+    [<RoboDog>, <Food>]
+    RoboDog: Ate at 5.
+    [<RoboDog>]
+    [<RoboDog>]
+    [<RoboDog>, <Water>]
+    RoboDog: Drank at 7.
+```
