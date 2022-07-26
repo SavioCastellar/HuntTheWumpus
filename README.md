@@ -1,3 +1,13 @@
+<p align="right">
+  <a>
+    <img src="https://cdn-icons-png.flaticon.com/512/3909/3909219.png" width="14" height="14">
+    <a href="link"> DE</a>
+    <br>
+    <img src="https://cdn-icons-png.flaticon.com/512/3909/3909370.png" width="14" height="14">
+    <a href="link"> PT-BR</a>
+  </a>
+</p>
+
 <p align="center">
   <a>
     <img src="https://external-preview.redd.it/89YLIhzlwSzVHq9ZKIgD4ySf8JHmQThqS9oJGCdo73w.jpg?auto=webp&s=a04778fdb64d396eec7800f18e0b97e6011a2df5" width="308" height="226">
@@ -11,12 +21,13 @@
 </p>
 
 ## Introduction
-The goal of the project is to understand how an agent acts in an environment according to it perceptions.<br>
-To achieve this objective the RoboDog ```agent``` and the Park ```environment``` were created.<br>
-The agent must be able to interact with it perceptions and take actions.<br>
-For the purpose of interactions, Food and Water ```things``` were allocated at the Park.<br>
-Walk, Eat and Drink are the actions the agent is able to take.<br>
-So... The RoboDog walks at the Park, notices the things that are nearby and take actions based in it perceptions.
+"Hunt the Wumpus" is a game in which the player need to get the ```treasure``` out of the ```cave```.<br>
+The cave ```environment``` is a 4x4 grid that provides some perceptions to the player.<br>
+And they are: ```Breeze```, ```Stentch``` and ```Glow```.<br>
+Player starts in position ```[0,0]```.<br>
+Wumpus ```monster``` and pits are randomly allocated in cave.<br>
+The objective is to reach the treasure while avoid dying based on its perceptions.<br>
+
 
 ## Technologies
 Project is created with:
