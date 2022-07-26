@@ -31,22 +31,29 @@ The objective is to reach the treasure while avoid dying based on its perception
 
 ## Technologies
 Project is created with:
-* Python: 3.6.0
-* Notebook: 4.3.1
+* Python: ???
 
 <a href="https://github.com/SavioCastellar/RoboDog/blob/main/requirements.txt">Requirements</a>
 
 ## Features
-```agents.py```<br />
-File where the agent, the enviroment and those attributes are defined.
-```agents.ipynb```<br />
-You can run the program in a Jupyter Notebook from here.
-```agents.yaml```<br />
-That's the python env.
-```AIBO.jpg```<br />
-RoboDog image ^.^
+```knowledge.py```<br />
+...
+
+```entity.py```<br />
+...
+
+```enumeration.py```<br />
+...
+
+```movement.py```<br />
+...
+
+```game.py```<br />
+...
+
 ```requirements.txt```<br />
 The version for all used packages can be seen here.
+
 ## Output
 Setting up the environment:
 
