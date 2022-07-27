@@ -31,9 +31,7 @@ The objective is to reach the treasure while avoid dying based on its perception
 
 ## Technologies
 Project is created with:
-* Python: ???
-
-<a href="https://github.com/SavioCastellar/RoboDog/blob/main/requirements.txt">Requirements</a>
+* Python: 3.9.12
 
 ## Features
 ```knowledge.py```<br />
@@ -51,38 +49,27 @@ Project is created with:
 ```game.py```<br />
 ...
 
-```requirements.txt```<br />
-The version for all used packages can be seen here.
-
 ## Output
-Setting up the environment:
+First output we get when we run ```game.py```:
 
 ``` Ruby
-    # RoboDog at position 0
-    park.add_thing(dog, 0)
-    
-    # Food at position 5
-    park.add_thing(food, 5)
-    
-    # Water at position 7
-    park.add_thing(water, 7)
-    
-    # Number of steps
-    park.run(10)
-```
+Agent
+Location: (0, 0)
+Direction: East
+Is there gold? False
+Is there arrow? True
 
-For the environment above, that's the output we get:
+# |_X_||___||___||___|
+# |___||___||___||___|
+# |___||___||___||___|
+# |___||___||___||___|
 
-``` Ruby
-    [<RoboDog>]
-    [<RoboDog>]
-    [<RoboDog>]
-    [<RoboDog>]
-    [<RoboDog>]
-    [<RoboDog>, <Food>]
-    RoboDog: Ate at 5.
-    [<RoboDog>]
-    [<RoboDog>]
-    [<RoboDog>, <Water>]
-    RoboDog: Drank at 7.
-```
+No perceptions.
+
+# 1) Move foward
+# 2) Turn left
+# 3) Turn right
+# 4) Grab
+# 5) Shoot
+
+What's your next action?
