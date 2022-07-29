@@ -1,8 +1,3 @@
-#! /usr/bin/env python
-
-
-# Módulo que define os movimentos do agente
-
 # Objeto DELTA usado para mover o agente e alcançar seus vizinhos
 DELTA = (0, -1), (1, 0), (0, 1), (-1, 0)
 
