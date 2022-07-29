@@ -7,8 +7,8 @@ import sys
 import random
 
 from enumeration import Goal, Status, Action
-from entidade import Room, Agent, Knowledge, Cave
-from conhecimento import perceive, tell, update, ask
+from entity import Room, Agent, Knowledge, Cave
+from knowledge import perceive, tell, update, ask
 
 
 
