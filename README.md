@@ -50,7 +50,7 @@ Project is created with:
 ...
 
 ## Output
-First output we get when we run ```game.py```:
+First output we get when running ```game.py```:
 
 ``` Ruby
 Agent
@@ -59,10 +59,12 @@ Direction: East
 Is there gold? False
 Is there arrow? True
 
-# |_X_||___||___||___|
-# |___||___||___||___|
-# |___||___||___||___|
-# |___||___||___||___|
+"""
+|_X_||___||___||___|
+|___||___||___||___|
+|___||___||___||___|
+|___||___||___||___|
+"""
 
 No perceptions.
 
