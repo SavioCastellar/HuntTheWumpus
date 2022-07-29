@@ -6,7 +6,7 @@
 import random
 
 from enumeration import Status, Entity, Action, Goal
-from movimento import neighbors, spins, known_path, path_to_spins
+from movement import neighbors, spins, known_path, path_to_spins
 
 
 def perceive(kb, loc):
