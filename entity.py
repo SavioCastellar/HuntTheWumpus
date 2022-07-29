@@ -6,7 +6,7 @@
 import random
 
 from enumeration import Status, Entity, Action, CardinalDirection
-from movimento import turn, move_forward
+from movement import turn, move_forward
 
 
 
