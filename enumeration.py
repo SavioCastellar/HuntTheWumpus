@@ -1,8 +1,3 @@
-#! /usr/bin/env python
-
-
-# Módulo usado para definir status
-
 import enum
 
 class Status(enum.Enum):
