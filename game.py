@@ -1,7 +1,4 @@
-#! /usr/bin/env python3
 
-
-# Módulo Game
 
 import sys
 import random
@@ -16,7 +13,6 @@ def print_intro():
   print('\n')
   print('*******************************')
   print('Caçada ao Wumpus')
-  print('Inteligência Artificial em Ação')
   print('*******************************')
   print('\n')
 
