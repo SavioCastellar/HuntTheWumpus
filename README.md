@@ -21,7 +21,7 @@
 </p>
 
 ## Introduction
-"Hunt the Wumpus" is a game in which the player need to get the ```treasure``` out of the ```cave```.<br>
+"Hunt the Wumpus" is a game in which the player needs to get the ```treasure``` out of the ```cave```.<br>
 The cave ```environment``` is a 4x4 grid that provides some perceptions to the player.<br>
 And they are: ```Breeze```, ```Stentch``` and ```Glow```.<br>
 Player starts in position ```[0,0]```.<br>
